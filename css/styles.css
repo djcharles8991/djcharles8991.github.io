@@ -4,6 +4,9 @@ body{
 img{
     max-width: 50%;
 }
+h1{
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
