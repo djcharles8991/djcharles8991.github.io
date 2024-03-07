@@ -30,12 +30,14 @@ p{font-size: 20px;
   .div1 {
     grid-area: 1 / 1 / 3 / 4;
     background-color: blueviolet;
+    p{font-size: x-large;}
     color: white;
   }
   .div2 {
     grid-area: 1 / 4 / 3 / 6;
     background-color: blueviolet;
-    color: white;  
+    color: white;
+     h3{font-size: x-large;}
     a{
       color: rgb(190, 255, 212);
       font-style: italic;
