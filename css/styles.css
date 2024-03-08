@@ -1,0 +1,42 @@
+body{
+ font-family: 'baskerville', garamond, serif;   
+}
+img{
+    min-width: 50%;
+    max-width: 50%;
+}
+h1{font-size: 75px;
+}
+h2{font-size: 35px;
+  font-style: oblique;
+}
+h3{font-size: 25px;
+}
+p{font-size: 20px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 2px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 6;
+  background-color: blueviolet;
+  color: rgb(220, 208, 223); 
+  font-size: 20pt;
+a{color: aliceblue;}}
+
+  .div2 { grid-area: 2 / 1 / 3 / 3;
+  img{ min-width: fit-content;} }
+
+  .div3 { grid-area: 2 / 3 / 3 / 5;
+    img{ max-width: 75%;} }
+
+  .div4 { grid-area: 3 / 1 / 4 / 3; 
+    img{ max-width: 75%;}}
+
+  .div5 { grid-area: 3 / 3 / 4 / 5; 
+    img{ max-width: 75%;}}
