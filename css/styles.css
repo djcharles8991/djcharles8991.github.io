@@ -1,5 +1,5 @@
 body{
- font-family: 'Times New Roman', Times, serif;   
+ font-family: 'baskerville', garamond, serif;   
 }
 img{
     min-width: 50%;
@@ -37,7 +37,7 @@ p{font-size: 20px;
     grid-area: 1 / 4 / 3 / 6;
     background-color: blueviolet;
     color: white;
-     h3{font-size: x-large;}
+     h3{
     a{
       color: rgb(190, 255, 212);
       font-style: italic;
