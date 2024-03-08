@@ -23,7 +23,7 @@ p{font-size: 20px;
 }
 
 .active {
-  height: 20px;
+  image{height: 20px;}
 }
 
 .parent {
